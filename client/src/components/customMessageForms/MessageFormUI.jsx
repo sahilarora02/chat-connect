@@ -24,7 +24,7 @@ const MessageFormUI = (
           <img
             className="message-form-preview-image"
             src={preview}
-            alt="image"
+            alt="message new"
             onLoad={() => URL.revokeObjectURL(preview)}
           />
           <XMarkIcon
